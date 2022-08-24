@@ -1,0 +1,15 @@
+devices: 
+  sjc-ads-101: 
+    alias: node01
+    connections: 
+      cli: 
+        ip: "171.71.190.31"
+        protocol: ssh
+    credentials: 
+      default: 
+        password: Maple@0701
+        username: poboopat
+    os: linux
+    type: linux
+testbed: 
+  name: Sample_testbed
