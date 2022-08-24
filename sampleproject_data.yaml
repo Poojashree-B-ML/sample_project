@@ -1,0 +1,16 @@
+TriggerGetRunningConfig:
+  source:
+    pkg: sample_project
+    class: Get_Running_Config
+  devices:
+    -sjc-ads-101
+
+TriggerCommonSetup:
+  source:
+    pkg: sample_project
+    class: CommonSetup
+  
+TriggerCommonCleanup:
+  source:
+    pkg: sample_project
+    class: CommonCleanup
